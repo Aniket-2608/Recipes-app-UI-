@@ -1,0 +1,46 @@
+body{
+    background-color: yellowgreen;
+
+}
+.container{
+    display: flex;
+    width: 300px;
+    height: 350px;
+    justify-content: space-around;
+    padding: 10px 5px 5px 5px;
+    margin-top:50px;
+    box-shadow: 10px 10px 10px 10px;
+}
+
+.signin{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 250px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px 10px;
+    height: 330px;
+    background-color: orangered;
+}
+.signin .sign--input{
+    width: auto;
+    height: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+.signin .signin--button{
+    border-radius: 15px 15px 15px 15px;
+    width: 100px;
+    height: 30px;
+    border-color: brown;
+    margin: auto;
+    background-color: green;
+}
+.signin .signin--button:hover{
+    color: white;
+    background-color: black;
+}
+
+.link{
+    color: black;
+}
